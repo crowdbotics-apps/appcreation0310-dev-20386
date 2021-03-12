@@ -17,14 +17,14 @@ class CustomText(models.Model):
         max_length=150,
     )
     first_name = models.CharField(
-        max_length=256,
         null=True,
         blank=True,
+        max_length=256,
     )
     last_name = models.CharField(
-        max_length=256,
         null=True,
         blank=True,
+        max_length=256,
     )
     age = models.IntegerField(
         null=True,
